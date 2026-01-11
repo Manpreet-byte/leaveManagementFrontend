@@ -38,7 +38,7 @@ const Login = () => {
   };
 
   const handleGoogleLogin = () => {
-    window.location.href = 'http://localhost:5000/api/auth/google';
+    window.location.href = 'https://leavemanagementbackend-3y3o.onrender.com/api/auth/google';
   };
 
   return (
